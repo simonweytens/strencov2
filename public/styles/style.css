@@ -1,0 +1,175 @@
+/* Stylesheet */
+html,
+body {
+  width: 100%;
+ 
+}
+div.title{
+    padding: inherit;
+}
+div.content{
+    display: none;
+    padding: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border-top: 5px solid black;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+  }
+button {
+  
+    background-color: #a3e070;
+    color: black;
+    padding: 5px 32px;
+    width: 35%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  
+}
+.button5{
+  border-radius: 50%;
+}
+button[disabled=disabled], button:disabled {
+  background-color: #f2f2f2;
+}
+#del{
+  width: 50%;
+  background-color: #e08170;
+}
+.top_buttons{
+  text-align:  center;
+}
+.bottom_button{
+  text-align: center;
+}
+/*NAV*/
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #c9c9c3;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  /*background-color: #ff7900;*/
+  background-color: #707068;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+} 
+/* hover effect */
+.link{
+	padding: 5px 2px;
+	margin: 1px;
+	color: #000;
+  text-decoration: none;
+}
+/* strenco kleuren effect */
+.color1{
+  background-color: #235cad;
+}
+.color2{
+  background-color: #e33b50;
+}
+.color3{
+  background-color:#10c262;
+}
+.color4{
+  background-color:#2173c4;
+}
+.color5{
+  background-color: #e89b56;
+}
+.color6{
+  background-color: #f2df68;
+}
+
+
+
+  
+/* sterren */
+.checked {
+    color: orange;
+  }
+
+  .unchecked {
+    color: black;
+  }
+
+  .checkgem {
+      color: lightgreen;
+  }
+
+/* text style */
+h1 { 
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 275px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: left; 
+}
+
+p {
+    color: #7c795d; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 28px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+}
+
+#myGem {
+    color: black; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 30px; 
+    font-weight: 400; 
+    line-height: 28px;  
+  } 
+
+
+  
+
+
+
+
+ 
