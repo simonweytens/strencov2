@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'strenco'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a72ae98576c74d4fa4409d2b75fcd2dd }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_507f315bba3c40c3be43998ed0437b29 }}
         package: .
